@@ -1,0 +1,19 @@
+{
+  "name": "secure-api-project-test",
+  "version": "1.0.0",
+  "description": "Technical exercise with Node.JS in ES6,  Express and Mongoose frameworks and a MongoDB database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Day-101/secure-api-project-test.git"
+  },
+  "author": "Day SY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Day-101/secure-api-project-test/issues"
+  },
+  "homepage": "https://github.com/Day-101/secure-api-project-test#readme"
+}
