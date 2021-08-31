@@ -2,9 +2,9 @@
   "name": "secure-api-project-test",
   "version": "1.0.0",
   "description": "Technical exercise with Node.JS in ES6,  Express and Mongoose frameworks and a MongoDB database.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Day-101/secure-api-project-test/issues"
   },
-  "homepage": "https://github.com/Day-101/secure-api-project-test#readme"
+  "homepage": "https://github.com/Day-101/secure-api-project-test#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
 }
