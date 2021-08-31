@@ -4,7 +4,7 @@
   "description": "Technical exercise with Node.JS in ES6,  Express and Mongoose frameworks and a MongoDB database.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server"
   },
   "repository": {
     "type": "git",
