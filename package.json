@@ -1,10 +1,14 @@
 {
   "name": "secure-api-project-test",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.17.5"
+  },
   "description": "Technical exercise with Node.JS in ES6,  Express and Mongoose frameworks and a MongoDB database.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
