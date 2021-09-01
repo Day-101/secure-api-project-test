@@ -20,7 +20,7 @@ Install the app
 
   
 
-- **$ npm start**
+- **$ npm dev**
 
 Runs the app in the development mode.
 
