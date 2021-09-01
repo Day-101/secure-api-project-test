@@ -10,7 +10,7 @@ You can just register an account with an email, a password and take a look to ot
 
   
 
-**/!\ To use it, don't forget to create your own MongoDB database, a .env file in config/ and define PORT, DB_USERNAME, DB_PASSWORD and TOKEN_SECRET.**
+**/!\ To use it, don't forget to create your own MongoDB database, a .env file in config/ and define PORT, CLIENT_URL, DB_USERNAME, DB_PASSWORD and TOKEN_SECRET.**
 
   
 
