@@ -16,9 +16,10 @@ const app = express();
 //   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
 //   preflightContinue: false,
 // };
+const origin = process.env.CLIENT_URL;
 app.use(
   cors({
-    origin: (origin, callback) => callback(null, true),
+    origin: ((origin), callback) => callback(null, true),
     credentials: true,
   })
 );
