@@ -20,7 +20,7 @@ module.exports.signInErrors = (err) => {
     errors.email = "Email incorrect.";
 
     if (`${err}`.includes("password"))
-    errors.email = "Mot de passe incorrect.";
+    errors.password = "Mot de passe incorrect.";
 
   return errors;
 };
