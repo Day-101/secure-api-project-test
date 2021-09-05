@@ -15,9 +15,7 @@ module.exports.signUp = async (req, res) => {
 
   try {
     const user = await UserModel.create({ email, password });
-    // res.status(201).json({ user: user._id });
-    res.status(200).send({
-      // id: user._id,
+    res.status(201).json({ 
       user: user._id,
       email: user.email,
       accessToken: token
