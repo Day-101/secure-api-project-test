@@ -5,7 +5,7 @@ const { signUpErrors, signInErrors } = require("../utils/errors.utils");
 const maxAge = 3 * 24 * 60 * 60 * 1000;
 
 const createToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, {
+  return jwt.sign({ id: id }, process.env.JWT_SECRET, {
     expiresIn: maxAge,
   });
 };
@@ -15,7 +15,13 @@ module.exports.signUp = async (req, res) => {
 
   try {
     const user = await UserModel.create({ email, password });
-    res.status(201).json({ user: user._id });
+    // res.status(201).json({ user: user._id });
+    res.status(200).send({
+      // id: user._id,
+      user: user._id,
+      email: user.email,
+      accessToken: token
+    });
   } catch (err) {
     const errors = signUpErrors(err);
     res.status(200).send({ errors });
