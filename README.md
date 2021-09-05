@@ -1,51 +1,29 @@
-**Hi everyone!**
+# API Authentification App
 
-  
+Hi ! My name is Day, i'm a junior developper and this is my API Node.js project for my [React App](https://github.com/facebook/create-react-app). The DB was build with MongoDB.
 
-I'm a junior developer and this is a technical **Node.JS** exercise with a **MongoDB** database.
+Don't forget to configure your config/.env file:
+### `PORT="5000"`
+### `CLIENT_URL="http://localhost:3000/"`
+### `DB_USERNAME=<your_DB_username>`
+### `DB_PASSWORD=<your_DB_password>`
+### `JWT_SECRET=<your_JWT_secret>`
 
-  
 
-You can just register an account with an email, a password and take a look to others account but I think that my code is pretty good.
+For install, run:
 
-  
+### `npm i`
 
-**/!\ To use it, don't forget to create your own MongoDB database, a .env file in config/ and define PORT, CLIENT_URL, DB_USERNAME, DB_PASSWORD and TOKEN_SECRET.**
+In the project directory, run:
 
-  
+### `npm start`
 
-- **$ npm i**
+Runs the app in the development mode.\
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
-Install the app
 
-  
+### Deployment
 
-- **$ npm dev**
+This project is deployed on Heroku but it doesn't really work. I need more time for debug the JWT Cookies ='(.
 
-Runs the app in the development mode.
-
-  
-
-With a software like ***Postman*** you can test it.
-
-  
-
-**Create a new user :**
-
-(POST) http://localhost:5000/api/user/register
-
-{"email": "example@yopmail.com", "password": "yourPassword"}
-
-  
-
-**Login :**
-
-(POST) http://localhost:5000/api/user/login
-
-{"email": "example@yopmail.com", "password": "yourPassword"}
-
-  
-
-**Logout :**
-
-(GET) http://localhost:5000/api/user/logout
+**Note: If you have a response to my problem, contact me ;)**
